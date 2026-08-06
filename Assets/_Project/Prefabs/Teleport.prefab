@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 5880620851247015245}
   - component: {fileID: 4655668892263159467}
   - component: {fileID: 7191823569208939351}
+  - component: {fileID: 8956049674548316330}
   m_Layer: 0
   m_Name: Teleport
   m_TagString: Untagged
@@ -127,6 +128,38 @@ MonoBehaviour:
   _playerDestination: {fileID: 6710204054235569194}
   _cameraDestination: {fileID: 4349668529059785996}
   _onTeleport:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8956049674548316330}
+        m_TargetAssemblyTypeName: FadeComponent, Assembly-CSharp
+        m_MethodName: StartFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8956049674548316330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2517638655964239221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073cabd1f4233a04780fa7c502a19334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FadeComponent
+  _startingColor: {r: 0, g: 0, b: 0, a: 1}
+  _endingColor: {r: 0, g: 0, b: 0, a: 0}
+  _timeToFade: 0.5
+  _fullFade: 0
+  _timeToWait: 2
+  _onEndFade:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &7240914802176215193
