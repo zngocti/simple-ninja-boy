@@ -64,7 +64,12 @@ public class InteractionController : MonoBehaviour
 
         if (hit.collider != null)
         {
+            InteractionTarget target;
 
+            if (hit.collider.TryGetComponent<InteractionTarget>(out target))
+            {
+                target.StartInteraction();
+            }            
         }
     }
 }
