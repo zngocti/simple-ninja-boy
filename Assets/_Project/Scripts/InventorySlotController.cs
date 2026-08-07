@@ -14,7 +14,7 @@ public class InventorySlotController : MonoBehaviour
     [Tooltip("Triggers when the item is added from 0, it won't trigger if stacked")]
 	[SerializeField] UnityEvent<ItemSO> _onItemAdded = new UnityEvent<ItemSO>();
     [Tooltip("Triggers when the item is totally removed")]
-    [SerializeField] UnityEvent _onItemRemoved = new UnityEvent();
+    [SerializeField] UnityEvent<ItemSO> _onItemRemoved = new UnityEvent<ItemSO>();
     [Tooltip("Triggers when the item amount changed")]
     [SerializeField] UnityEvent<int> _onAmountChanged = new UnityEvent<int>();
     ItemSO _currentItem;
@@ -93,7 +93,7 @@ public class InventorySlotController : MonoBehaviour
     {
         if (amount >= _amount || amount == 0)
         {
-            _onItemRemoved?.Invoke();
+            _onItemRemoved?.Invoke(_currentItem);
             _onAmountChanged?.Invoke(amount);
             _amount = 0;
             _currentItem = null;
