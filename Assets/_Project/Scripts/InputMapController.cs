@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -28,7 +29,7 @@ public class InputMapController : MonoBehaviour
         }
     }
 
-    public void SwitchToMap(string mapName)
+    public void SwitchToMapInstant(string mapName)
     {
         _lastActionMap = _playerInput.currentActionMap.name;
         _playerInput.SwitchCurrentActionMap(mapName);
@@ -37,5 +38,16 @@ public class InputMapController : MonoBehaviour
     public void SwitchToPreviousMap()
     {
         _playerInput.SwitchCurrentActionMap(_lastActionMap);
+    }
+
+    public void SwitchToMap(string mapName)
+    {
+        StartCoroutine(SwitchToMapAfterFrame(mapName));
+    }
+
+    IEnumerator SwitchToMapAfterFrame(string newActionMap)
+    {
+        yield return null;
+        SwitchToMapInstant(newActionMap);
     }
 }

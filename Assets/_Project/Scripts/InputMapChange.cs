@@ -7,33 +7,21 @@ public class InputMapChange : MonoBehaviour
 
     public void ChangeActionMapInstant()
     {
-        InputMapController.Instance?.SwitchToMap(_actionMapName);
+        InputMapController.Instance?.SwitchToMapInstant(_actionMapName);
     }
 
     public void ChangeActionMapInstant(string newActionMap)
     {
-        InputMapController.Instance?.SwitchToMap(newActionMap);     
+        InputMapController.Instance?.SwitchToMapInstant(newActionMap);     
     }
 
     public void ChangeActionMap()
     {
-        StartCoroutine(ChangeActionMapAfterFrame());
+        InputMapController.Instance?.SwitchToMap(_actionMapName);
     }
 
     public void ChangeActionMap(string newActionMap)
     {
-        StartCoroutine(ChangeActionMapAfterFrame(newActionMap));
-    }
-
-    IEnumerator ChangeActionMapAfterFrame()
-    {
-        yield return null;
-        ChangeActionMapInstant();
-    }
-
-    IEnumerator ChangeActionMapAfterFrame(string newActionMap)
-    {
-        yield return null;
-        ChangeActionMapInstant(newActionMap);
+        InputMapController.Instance?.SwitchToMap(newActionMap);
     }
 }
