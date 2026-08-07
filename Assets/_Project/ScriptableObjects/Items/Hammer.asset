@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ebad53803a00ca48ad08ccc3150d710, type: 3}
   m_Name: Hammer
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  _itemID: 1
   _itemName: Hammer
   _icon: {fileID: 21300000, guid: 2ad3548b773745d499dfc6dadea7bc1f, type: 3}
   _itemType: {fileID: 11400000, guid: 672cc95e7a2cffd478f9f57abe05edd4, type: 2}

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ebad53803a00ca48ad08ccc3150d710, type: 3}
   m_Name: Onigiri
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  _itemID: 3
   _itemName: Onigiri
   _icon: {fileID: 21300000, guid: ba2deb52d768ba4409f3d29b7ebac039, type: 3}
   _itemType: {fileID: 11400000, guid: d71307e2a0a9dac44972b8586a1f4186, type: 2}

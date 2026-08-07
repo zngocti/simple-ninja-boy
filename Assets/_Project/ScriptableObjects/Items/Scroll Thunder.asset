@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ebad53803a00ca48ad08ccc3150d710, type: 3}
   m_Name: Scroll Thunder
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  _itemID: 7
   _itemName: Thunder Scroll
   _icon: {fileID: 21300000, guid: 9e4385e00a12d5f4d8e259cecf2e96ac, type: 3}
   _itemType: {fileID: 11400000, guid: acddd2009607f8640bdc9d2e69cec190, type: 2}

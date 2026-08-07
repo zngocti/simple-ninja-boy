@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
+    static SaveManager _instance;
+    static public SaveManager Instance { get => _instance; }
+
     [SerializeField] string _statsSaveFileName = "/stats.json";
     [SerializeField] string _gameObjectsSaveFileName = "/gobjects.json";
     [SerializeField] string _inventorySaveFileName = "/inventory.json";
@@ -18,6 +22,45 @@ public class SaveManager : MonoBehaviour
 
     List<ISaveableData> _saveableObjects = new List<ISaveableData>();
 
+    bool _loadingGame = false;
+
+    void Awake()
+    {
+        if (!_instance)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (_instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+    }
+
+    public void PrepareToLoad()
+    {
+        _loadingGame = true;
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (_loadingGame)
+        {
+            _loadingGame = false;
+            LoadGameData();
+        }
+    }
 
     public void SaveGameData()
     {
