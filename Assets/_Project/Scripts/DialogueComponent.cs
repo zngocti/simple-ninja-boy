@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class DialogueComponent : MonoBehaviour
 {
@@ -20,5 +21,20 @@ public class DialogueComponent : MonoBehaviour
     {
         DialogueDisplay.Instance.onWritterCompleted -= EndDialogue;
         _onDialogueEnd?.Invoke();
+    }
+
+    public void ForceSkip()
+    {
+        DialogueDisplay.Instance.SkipOrContinue();
+    }
+
+    public void OnSkipByInput(InputAction.CallbackContext context)
+    {
+        if (!context.started)
+        {
+            return;
+        }
+
+        ForceSkip();
     }
 }

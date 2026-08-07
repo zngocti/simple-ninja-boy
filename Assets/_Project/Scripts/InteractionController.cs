@@ -54,7 +54,7 @@ public class InteractionController : MonoBehaviour
 
     public void OnInteraction(InputAction.CallbackContext context)
     {
-        if (!context.started ||_raycastDirection == Vector2.zero)
+        if (!context.started || _raycastDirection == Vector2.zero)
         {
             return;
         }

@@ -17,7 +17,7 @@ public class DialogueDisplay : MonoBehaviour
 	[SerializeField] bool _leadingCharBeforeDelay = false;
     [SerializeField] bool _autoContinue = false;
     [Space(10)]
-	[SerializeField] UnityEvent _onWritterCompleted;
+	[SerializeField] UnityEvent _onWritterCompleted = new UnityEvent();
 	public event System.Action onWritterCompleted;
 
 	string[] _writer;
