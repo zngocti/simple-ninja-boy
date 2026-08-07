@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 5580177779229800216}
   - component: {fileID: 8145925370186754875}
   - component: {fileID: 6041701802498764627}
+  - component: {fileID: 5265292405608332722}
+  - component: {fileID: 7515952763056757171}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -263,3 +265,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputMapChange
   _actionMapName: 
+--- !u!114 &5265292405608332722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5953990434729967923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca40b66100e62a746b50028fd3a97511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PersistentUniqueID
+  _id: 0a0ff1c4-50f7-406c-9291-6435ff36c9bc
+--- !u!114 &7515952763056757171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5953990434729967923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b7b2ae00d51f49aeb06b769cc9860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaveableGameObject

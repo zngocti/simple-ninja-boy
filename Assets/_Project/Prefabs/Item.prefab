@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 5358586137508321644}
   - component: {fileID: 7034668530500413857}
   - component: {fileID: 9173514873879525072}
+  - component: {fileID: 6240827077182222870}
+  - component: {fileID: 8510948379228138913}
   m_Layer: 0
   m_Name: Item
   m_TagString: Untagged
@@ -354,3 +356,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputMapChange
   _actionMapName: 
+--- !u!114 &6240827077182222870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5277116787899036804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca40b66100e62a746b50028fd3a97511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PersistentUniqueID
+  _id: 41041c83-97e9-4f84-a740-c937b1289f42
+--- !u!114 &8510948379228138913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5277116787899036804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b7b2ae00d51f49aeb06b769cc9860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaveableGameObject

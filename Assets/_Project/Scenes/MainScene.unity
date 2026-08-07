@@ -280,6 +280,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 3e89542f-23fd-4b10-9638-c6fd54aa55fa
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot S
@@ -852,6 +856,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 09fb8b98-5381-4d4c-aab6-a1ebee2089f6
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -1077,6 +1085,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: f1c581c5-cda3-4d15-8de9-8e9c5f41a639
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -1539,6 +1551,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: a8a83394-fa2c-4f4c-8245-5036c6e07f21
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -1727,6 +1743,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 11efa962-952d-40d8-8a95-18a8bbd7ff9a
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -1993,6 +2013,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 16547303-3dfb-47da-a1f0-6820971e90b5
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -2105,6 +2129,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 06908cb8-f9aa-45a9-845e-821ec3ab560e
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -2372,6 +2400,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: c53678bb-bd21-407e-ae1a-d0050e18ecb4
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -2485,6 +2517,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: fc0e0551-339a-4df9-b327-bd48c35148de
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot T
@@ -2554,6 +2590,8 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420034}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2679,6 +2717,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8b7b2ae00d51f49aeb06b769cc9860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaveableGameObject
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca40b66100e62a746b50028fd3a97511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PersistentUniqueID
+  _id: 69ee9b43-d3d7-4975-b1fd-ab7e27a571b0
 --- !u!1001 &521752947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2766,6 +2829,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 1472d119-e965-4dc5-be2f-f9a9c8a9733d
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -3285,6 +3352,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: f7e21f32-1889-493a-91ac-f074e4d2180d
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -3473,6 +3544,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: aad74224-d43a-49cf-a344-d0db35a23ed1
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -3880,6 +3955,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: dc9c1aa1-e17b-467d-ace3-317ddc93bdc8
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -4223,6 +4302,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 2f7e730b-ea80-4674-876f-30b592fe8b63
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -4611,6 +4694,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: cb8cfb90-3737-4b46-b7e3-9ca8c2a43064
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -4860,6 +4947,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 9189c5ed-11d4-4a96-9cc0-a7db532eef64
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -5193,6 +5284,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: d75bebdb-4f02-4b21-82e1-409a287f9f03
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -14351,6 +14446,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 6fe30d29-fe20-405e-b76c-c20d47bb32bc
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -14975,6 +15074,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 875b5d82-ca8e-447d-8b21-8c042f808e8d
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot W
@@ -15312,6 +15415,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: aa5ea25f-0df0-4791-9df1-fab87d708694
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -15424,6 +15531,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 173e477c-0cf4-4044-b89a-30315ccf7e38
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -15688,6 +15799,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: a4548d16-bd4f-4fc3-a26c-74e41e4f2557
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -16379,6 +16494,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 5875ffe2-ccdc-4c82-9289-93f23a33d3e6
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
@@ -18090,6 +18209,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: a4558474-4461-436e-b7d3-140dd8b96683
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -18394,6 +18517,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: ce0fddb0-de41-4d13-8ad3-b3f4137151f5
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -18658,6 +18785,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 53304e48-a129-4168-a5c7-5b9047af8933
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -18775,6 +18906,7 @@ GameObject:
   - component: {fileID: 1831715746}
   - component: {fileID: 1831715745}
   - component: {fileID: 1831715747}
+  - component: {fileID: 1831715748}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -19034,6 +19166,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1831715748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831715738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca40b66100e62a746b50028fd3a97511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PersistentUniqueID
+  _id: 748c7a13-4e38-41ff-a774-b830cb52d19d
 --- !u!1 &1837141444
 GameObject:
   m_ObjectHideFlags: 0
@@ -24901,6 +25046,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: e4c46aa7-921c-4a8b-ae64-95d0f133e539
+      objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
@@ -25184,6 +25333,10 @@ PrefabInstance:
     - target: {fileID: 3834550530444665960, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919753826738997190, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
+      propertyPath: _id
+      value: 93c28b69-b30f-41af-b2bf-a46f2342abba
       objectReference: {fileID: 0}
     - target: {fileID: 6119513778628568535, guid: 574664af73b9e6a4f848cdbd0c4f07c2, type: 3}
       propertyPath: m_Name
