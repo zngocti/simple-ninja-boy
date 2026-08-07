@@ -16,3 +16,6 @@ MonoBehaviour:
   _icon: {fileID: 21300000, guid: 33d5232b110498b43b32ccd05ce1d65c, type: 3}
   _itemType: {fileID: 11400000, guid: acddd2009607f8640bdc9d2e69cec190, type: 2}
   _canBeStacked: 0
+  _healthRestored: 0
+  _attack: 0
+  _magic: 5
