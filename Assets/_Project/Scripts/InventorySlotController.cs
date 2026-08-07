@@ -3,7 +3,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class InventorySlotController : MonoBehaviour
+[RequireComponent(typeof(PersistentUniqueID))]
+public class InventorySlotController : MonoBehaviour, ISaveableData
 {
     [Tooltip("If you set this to false you will have to place items manually in this slot")]
     [SerializeField] bool _autoAcceptItems = true;
@@ -24,6 +25,29 @@ public class InventorySlotController : MonoBehaviour
     public ItemSO Item { get => _currentItem; }
     public int Amount { get => _amount; }
     public bool AutoAcceptItems { get => _autoAcceptItems; }
+
+     PersistentUniqueID _persistentID;
+
+    public string SaveID
+    {
+        get
+        {
+            if (_persistentID == null)
+            {
+                _persistentID = GetComponent<PersistentUniqueID>();
+            }
+
+            return _persistentID.ID;
+        }
+    }
+
+    void Awake()
+    {
+        if (!_persistentID)
+        {
+            _persistentID = GetComponent<PersistentUniqueID>();
+        }
+    }
 
     public bool CheckCompatibility(ItemSO item)
     {   
@@ -102,5 +126,29 @@ public class InventorySlotController : MonoBehaviour
 
         _amount -= amount;
         _onAmountChanged?.Invoke(amount);
+    }
+
+    public void ClearItem()
+    {
+        _amount = 0;
+        _currentItem = null;
+    }
+
+    public void SetVariablesToSave()
+    {
+        if (!_persistentID)
+        {
+            _persistentID = GetComponent<PersistentUniqueID>();
+        }
+    }
+
+    public void OnSave(SaveManager manager)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void OnLoad(SaveManager manager)
+    {
+        throw new NotImplementedException();
     }
 }

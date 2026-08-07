@@ -1,7 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.TextCore;
 
-public class PlayerStats : MonoBehaviour
+[RequireComponent(typeof(PersistentUniqueID))]
+public class PlayerStats : MonoBehaviour, ISaveableData
 {
     [SerializeField] int _startingHealth = 5;
     [SerializeField] int _startingAttack = 2;
@@ -16,6 +18,25 @@ public class PlayerStats : MonoBehaviour
     int _currentAttack;
     int _currentMagic;
 
+    public int CurrentHealth { get => _currentHealth; }
+    public int CurrentAttack { get => _currentAttack; }
+    public int CurrentMagic { get => _currentMagic; }
+
+    PersistentUniqueID _persistentID;
+
+    public string SaveID
+    {
+        get
+        {
+            if (_persistentID == null)
+            {
+                _persistentID = GetComponent<PersistentUniqueID>();
+            }
+
+            return _persistentID.ID;
+        }
+    }
+
     void Awake()
     {
         _currentHealth = _startingHealth;
@@ -25,6 +46,11 @@ public class PlayerStats : MonoBehaviour
         _onHealthChanged?.Invoke(_currentHealth.ToString());
         _onAttackChanged?.Invoke(_currentAttack.ToString());
         _onMagicChanged?.Invoke(_currentMagic.ToString());
+
+        if (!_persistentID)
+        {
+            _persistentID = GetComponent<PersistentUniqueID>();
+        }
     }
 
     public void ModifyStatsItemAdded(ItemSO item)
@@ -49,5 +75,29 @@ public class PlayerStats : MonoBehaviour
     {
         _currentHealth += item.HealthRestored;
         _onHealthChanged?.Invoke(_currentHealth.ToString());   
+    }
+
+    public void OnLoad(SaveManager manager)
+    {
+        Vector3Int stats;
+        if (manager.PlayerStatsData.Stats(_persistentID.ID, out stats))
+        {
+            _currentHealth = stats.x;
+            _currentAttack = stats.y;
+            _currentMagic = stats.z;
+        }
+    }
+
+    public void OnSave(SaveManager manager)
+    {
+        manager.PlayerStatsData.SaveData(this);
+    }
+
+    public void SetVariablesToSave()
+    {
+        if (!_persistentID)
+        {
+            _persistentID = GetComponent<PersistentUniqueID>();
+        }
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Item", menuName = "Scriptable Objects/Item")]
 public class ItemSO : ScriptableObject
 {
+    [SerializeField] int _itemID;
     [SerializeField] string _itemName;
     [SerializeField] Sprite _icon;
     [SerializeField] ItemTypeSO _itemType;
@@ -12,6 +13,7 @@ public class ItemSO : ScriptableObject
     [SerializeField] int _attack;
     [SerializeField] int _magic;
 
+    public int ItemID { get => _itemID; }
     public string ItemName { get => _itemName; }
     public Sprite Icon { get => _icon; }
     public ItemTypeSO ItemType { get => _itemType; }
