@@ -258,7 +258,7 @@
             ]
         },
         {
-            "name": "UI",
+            "name": "Inventory",
             "id": "272f6d14-89ba-496f-b7ff-215263d3219f",
             "actions": [
                 {
@@ -768,6 +768,62 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "OnlyEsc",
+            "id": "73fafb61-eaec-41e1-a0b6-3ee4eb585ee0",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "7ba56bb4-7080-431b-8263-4822f39dd1b2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "069ff4f9-454b-4ca8-a876-d3230e057bdf",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Pause",
+            "id": "be3e4b05-15a7-4d7f-a453-0809dfc84b3f",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "f47499a8-6754-451f-897e-e81636b534a8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d6721528-c189-495a-a90c-d421d02462da",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
