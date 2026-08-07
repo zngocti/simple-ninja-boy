@@ -5,10 +5,14 @@ public class InventoryController : MonoBehaviour
     static private InventoryController _instance;
     static public InventoryController Instance { get => _instance; }
 
-    [SerializeField] InventorySlotController[] _inventorySlots = new InventorySlotController[0];
+    [SerializeField] InventorySlotController[] _inventorySlots = new InventorySlotController[0]; 
 
     int _currentDraggedSlot = -1;
     int _currentPointedSlot = -1;
+
+    public InventorySlotController[] InventorySlots { get => _inventorySlots; }
+    public int CurrentDraggedSlotIndex { get => _currentDraggedSlot; }
+    public int CurrentPointedSlotIndex { get => _currentPointedSlot; }
 
     void Awake()
     {
